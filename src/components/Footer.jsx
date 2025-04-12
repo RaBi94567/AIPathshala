@@ -8,7 +8,7 @@ export default function Footerz() {
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold">AIPathshala</h2>
           <p className="text-gray-300 mt-1">
-            AI Powered Study Platform, Web3 Based!
+            AI Powered Study Platform, Web3 Based! 
           </p>
         </div>
 
