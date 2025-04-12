@@ -11,7 +11,7 @@ const Account = () => {
 
   const handleLogout = () => {
     setAddress("");  // Clear the address (logout)
-    navigate("/");  // Redirect to home or login page
+    navigate("/");  // Redirect to home page
   };
 
   // If address is not available, show Login page

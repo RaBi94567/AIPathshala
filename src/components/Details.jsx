@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import Footerz from "./Footer";
 import Sponsored from "./Sponsored";
+import RandomNotes from "./RandomNotes";
 
 export default function Details() {
   const location = useLocation();
@@ -112,6 +113,8 @@ export default function Details() {
 
       <Sponsored/>
       <br/>
+
+      <RandomNotes />
       <Footerz />
     </div>
   );
