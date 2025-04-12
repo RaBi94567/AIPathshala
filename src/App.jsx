@@ -12,6 +12,7 @@ import { Toaster, toast } from 'react-hot-toast';
 import BrowserInterface from './components/BrowserInterface'
 import AIDeepResearch from './components/AIDeepResearch'
 import ManageNotes from './components/ManageNotes'
+import MyTokens from './components/MyTokens'
 
 
 
@@ -32,6 +33,7 @@ function App() {
     <Route path="/research" element={<BrowserInterface />} />
     <Route path="/ai-deep-research" element={<AIDeepResearch />} />
     <Route path="/manage" element={<ManageNotes />} />
+    <Route path="/my-tokens" element={<MyTokens />} />
     </Routes>
   </GlobalPrev>
 

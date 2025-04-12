@@ -112,7 +112,7 @@ export default function Chat() {
             >
               {msg.think && (
                 <div className="text-sm bg-red-200 p-2 rounded mb-2 font-mono">
-                  <strong><u>AI Thought:</u></strong>
+                  <strong><u>Guru is thinking:</u></strong>
                   <pre className="whitespace-pre-wrap">{msg.think}</pre>
                 </div>
               )}

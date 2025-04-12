@@ -14,6 +14,13 @@ const Account = () => {
     navigate("/");  // Redirect to home page
   };
 
+   const tou = () => {
+    alert("This is Terms of Use!")
+   }
+
+   const pp = () => {
+    alert("This is Privacy Policy!")
+   }
   // If address is not available, show Login page
   if (address === '') {
     return (
@@ -85,14 +92,14 @@ const Account = () => {
             </button>
 
             <button
-              onClick={() => navigate("/terms")}
+              onClick={tou}
               className="w-full py-3 bg-gradient-to-r from-gray-700 to-gray-600 text-white rounded-lg hover:from-gray-600 hover:to-gray-500 transition-all text-lg font-medium"
             >
               Terms of Use
             </button>
 
             <button
-              onClick={() => navigate("/privacy")}
+              onClick={pp}
               className="w-full py-3 bg-gradient-to-r from-gray-700 to-gray-600 text-white rounded-lg hover:from-gray-600 hover:to-gray-500 transition-all text-lg font-medium"
             >
               Privacy Policy
