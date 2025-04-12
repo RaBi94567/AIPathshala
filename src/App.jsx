@@ -11,6 +11,7 @@ import Community from './components/Community'
 import { Toaster, toast } from 'react-hot-toast';
 import BrowserInterface from './components/BrowserInterface'
 import AIDeepResearch from './components/AIDeepResearch'
+import ManageNotes from './components/ManageNotes'
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <Route path="/community" element={<Community />} />
     <Route path="/research" element={<BrowserInterface />} />
     <Route path="/ai-deep-research" element={<AIDeepResearch />} />
+    <Route path="/manage" element={<ManageNotes />} />
     </Routes>
   </GlobalPrev>
 

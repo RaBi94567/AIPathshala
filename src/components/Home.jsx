@@ -1,7 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "../GlobalContext";
 import image from "../assets/image.png";
-import WalletConnect from "./WalletConnect";
 import RecentNotes from "./RecentNotes";
 import RandomNotes from "./RandomNotes";
 import Footerz from "./Footer";

@@ -39,7 +39,7 @@ const Account = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { label: "Manage Notes", action: () => navigate("/manage-notes") },
+              { label: "Manage Notes", action: () => navigate("/manage") },
               { label: "My Tokens", action: () => navigate("/my-tokens") },
             ].map((item, index) => (
               <button
