@@ -5,8 +5,7 @@ import Login from './Login';
 import { Toaster, toast } from 'react-hot-toast';
 
 const AddForm = () => {
-      const { address, setAddress } = useGlobalContext();
-
+  const { address, setAddress } = useGlobalContext();
 
   const [formData, setFormData] = useState({
     title: '',
@@ -19,15 +18,13 @@ const AddForm = () => {
 
   const [message, setMessage] = useState('');
   const history = useNavigate(); 
-
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+  const { name, value } = e.target;
+  setFormData({ ...formData, [name]: value });
   };
-
   const handleFileChange = (e) => {
-    const { name, files } = e.target;
-    setFormData({ ...formData, [name]: files[0] });
+  const { name, files } = e.target;
+  setFormData({ ...formData, [name]: files[0] });
   };
 
   const handleSubmit = async (e) => {
@@ -119,12 +116,8 @@ const AddForm = () => {
     <Login />
     </div>);
   }
-
-
   return (
-
 <>
-
 <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700 py-10">
 
 
@@ -225,7 +218,6 @@ const AddForm = () => {
         </form>
       </div>
     </div>
-
     </>
   );
 };

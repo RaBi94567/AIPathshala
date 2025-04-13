@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import image from '../assets/deepresearch.png'
+import image from '../assets/deepresearch.png';
 
 const AIDeepResearch = () => {
 

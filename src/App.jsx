@@ -1,23 +1,20 @@
-import React from 'react'
-import Header from './components/Header'
-import { GlobalPrev } from './GlobalContext'
-import Home from './components/Home'
-import Details from './components/Details'
-import Chat from './components/Chat'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AddForm from './components/AddForm'
-import Account from './components/Account'
-import Community from './components/Community'
+import React from 'react';
+import Home from './components/Home';
+import Chat from './components/Chat';
+import Header from './components/Header';
+import Details from './components/Details';
+import AddForm from './components/AddForm';
+import Account from './components/Account';
+import { GlobalPrev } from './GlobalContext';
+import MyTokens from './components/MyTokens';
+import Community from './components/Community';
 import { Toaster, toast } from 'react-hot-toast';
-import BrowserInterface from './components/BrowserInterface'
-import AIDeepResearch from './components/AIDeepResearch'
-import ManageNotes from './components/ManageNotes'
-import MyTokens from './components/MyTokens'
-
-
+import ManageNotes from './components/ManageNotes';
+import BrowserInterface from './components/BrowserInterface';
+import AIDeepResearch from './components/AIDeepResearch';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
   <Router> 
    <GlobalPrev>
@@ -36,7 +33,6 @@ function App() {
     <Route path="/my-tokens" element={<MyTokens />} />
     </Routes>
   </GlobalPrev>
-
   </Router>
   )
 }

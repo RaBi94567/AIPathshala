@@ -15,11 +15,11 @@ const Account = () => {
   };
 
    const tou = () => {
-    alert("This is Terms of Use!")
+    alert("This is Terms of Use.....!")
    }
 
    const pp = () => {
-    alert("This is Privacy Policy!")
+    alert("This is Privacy Policy.....!")
    }
   // If address is not available, show Login page
   if (address === '') {
@@ -39,11 +39,7 @@ const Account = () => {
               <img src={image} alt="User" className="w-full h-full object-cover" />
             </div>
           </div>
-
-    
           <h2 className="text-3xl font-semibold text-center text-gray-800">{address}</h2>
-
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { label: "Manage Notes", action: () => navigate("/manage") },
@@ -59,7 +55,6 @@ const Account = () => {
             ))}
           </div>
 
-        
           <div className="space-y-4">
             <button
               onClick={() => navigate("/chat")}
@@ -114,7 +109,6 @@ const Account = () => {
           </button>
         </div>
       </div>
-
       <Footerz />
     </div>
   );

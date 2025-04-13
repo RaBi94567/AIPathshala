@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useGlobalContext } from '../GlobalContext';
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import WalletConnect from './WalletConnect';
