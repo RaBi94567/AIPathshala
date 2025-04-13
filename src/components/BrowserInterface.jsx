@@ -67,7 +67,7 @@ const BrowserInterface = () => {
     <>
     
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-indigo-900 via-purple-800 to-pink-700">
-      <div className="w-full max-w-7xl bg-white shadow-lg rounded-lg px-6 pb-20">
+      <div className="w-full max-w-7xl bg-white shadow-lg rounded-lg px-6 pb-20 mx-10">
        
       <h1
       className='m-6 text-2xl font-bold'>

@@ -1,84 +1,148 @@
-# React + Vite Project
 
-A modern web application built with React and Vite, offering blazing-fast development experience and optimized production builds.
+# 🧠 AIPathshala — Web3 x AI Learning Revolution
 
-## 🚀 Features
+**AIPathshala** is an advanced educational platform that leverages the power of **Web3**, **AI**, and **community collaboration**. It empowers learners to access, share, and monetize knowledge while fostering a decentralized and intelligent educational ecosystem.
 
-- ⚡️ Lightning-fast HMR (Hot Module Replacement)
-- 🛠️ React 18+ support
-- 📦 Vite for rapid development and building
-- 🔧 ESLint configuration for code quality
-- 💪 TypeScript support (optional)
+> 🚀 Learn Smarter. Share Freely. Earn Decentralized.
 
-## 📦 Installation
+---
 
-1. Clone the repository:
+## ❓ Problem Statement
+
+Traditional educational systems are often rigid, centralized, and limit the ability of students and educators to collaborate freely. Learners lack intelligent research tools, decentralized recognition, and real-world incentives for contributing knowledge.
+
+**AIPathshala solves this by:**
+- Decentralizing education using blockchain and tokenization.
+- Enabling AI-assisted content discovery and moderation.
+- Incentivizing learning and teaching through a Web3 rewards system.
+- Data conscious as all data is proceed on our server.
+
+---
+
+## 🧩 System Architecture
+
+![AIPathshala Flow](https://i.ibb.co/Df999kPm/aipathshala-flow.png)
+
+
+---
+
+## 🚀 Instructions to Run the App
+
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/RaBi94567/AIPathshala.git
+cd AIPathshala
 ```
 
-2. Install dependencies:
+---
+
+### 2. Backend Setup (PHP & MySQL)
+
+- Install a local server like **XAMPP**, **MAMP**, or **Laragon**.
+- Place the backend folder (`ai_path`) inside your server’s `htdocs` directory.
+- Set up the MySQL database:
+  - Create a new database (`aipathshala`)
+  - Import the SQL dump`notes.sql`.
+- Open the app in your browser:
+
+```text
+http://localhost/ai_path/
+```
+
+---
+
+### 3. Frontend Setup (React.js)
+
+- Navigate to the frontend(main) directory:
+
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-## 🔧 Development
-
-Start the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Visit `http://localhost:5173` to view your application.
+> Make sure it connects to the backend properly. Handle CORS if necessary.
 
-## 🏗️ Building for Production
+---
 
-Create a production build:
+### 4. Start the AI Chatbot (PathshalaAI) with Ollama
+
+Powered by **Deepscaler** (open-source DeepSeek 1.5B model).
 
 ```bash
-npm run build
-# or
-yarn build
-# or
-pnpm build
+ollama run deepscaler
 ```
 
-## 🔌 Vite Plugins
+> Ensure [Ollama](https://ollama.com) is installed and running on your system.
+> For more details about deepscaler, you can visit offifical site[deepscaler ](https://ollama.com/library/deepscaler).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tech Stack
 
-## 📝 ESLint Configuration
+| Layer         | Technology                                |
+|---------------|-------------------------------------------|
+| Frontend      | React.js, MetaMask (Web3 integration)     |
+| Backend       | PHP, MySQL                                |
+| AI Models     | Deepscaler (DeepSeek 1.5B) via Ollama     |
+| Search APIs   | Google Scholar, Microsoft Research, Wikipedia, Reddit |
+| Blockchain    | Ethereum-based token system               |
 
-For production applications, we recommend:
+---
 
-1. Using TypeScript for better type safety
-2. Enabling type-aware lint rules
-3. Integrating with [`typescript-eslint`](https://typescript-eslint.io)
+## 🌟 Features
 
-Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for TypeScript integration.
+### 🔐 Web3 Authentication
+- Login with **MetaMask** for secure, decentralized access.
 
-## 📚 Additional Resources
+### 📘 Access & Monetize Content
+- Study and download **notes, PDFs, research papers, and courses**.
+- Students can **earn tokens** even by studying notes or exploring our site.
+- Upload your own notes, research papers or sell courses and **earn tokens** through views or purchases.
 
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://react.dev/)
-- [TypeScript Documentation](https://www.typescriptlang.org/)
+### 💰 Token Incentive System
+- Earn tokens for learning, sharing, helping, and selling(bothe learner and publisher can earn tokens).
 
-## 📄 License
+### 🧠 AI-Powered:
+- **Moderation** of uploaded content (auto-flagging spam).
+- **Recommendation** engine for personalized learning.
+- **PathshalaAI** chatbot for doubt solving using Deepscaler(Offline version, all data remains on our own server).
+- **DeepDive AI** *(Beta)* for in-depth research generation.
+- **InsightHub** – Aggregate research from the web instantly.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### 🌐 InsightHub
+- Fetch materials from Google Scholar, Microsoft Research, Reddit, Wikipedia, and more.
 
-## 🤝 Contributing
+### 💬 Community Learning
+- Engage in forums to ask/answer doubts, share blogs, thoughts, and ideas.
+- Token rewards(tokens) for community engagement.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
+
+## 💬 Community & Contributions
+
+We welcome developers, researchers, educators, and enthusiasts to contribute:
+
+- Found a bug? Open an issue.
+- Have a feature request? Submit a PR.
+- Want to help with AI tuning or Web3 features? Join us!
+
+Let’s build the future of education — decentralized, intelligent, and open.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 🌈 Join the Movement
+
+AIPathshala isn't just an app — it's a movement to democratize education using the best of AI and Web3.
+
+> 🌐 “Because education should be intelligent, inclusive, and rewarding.”
+
+---
+
+**Made with ❤️ for learners by team Tech Titans [RaBi94567](https://github.com/RaBi94567)**
