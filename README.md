@@ -137,6 +137,12 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
+## ⌚ Watch Full Demo
+
+[![Watch Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+
+
 ## 🌈 Join the Movement
 
 AIPathshala isn't just an app — it's a movement to democratize education using the best of AI and Web3.
